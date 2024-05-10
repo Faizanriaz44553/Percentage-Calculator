@@ -29,6 +29,7 @@ body{
     background-color:#760043 ;
     border: transparent;
     border-radius: 20px;
+    padding-bottom: 15px;
 }
 .users-div{
     display: flex;
@@ -80,7 +81,7 @@ body{
 #button{
     display: flex;
     flex-wrap: wrap;
-    padding: 10px 180px 10px 180px;
+    padding: 10px 150px 10px 150px;
     border: transparent;
     border-radius: 7px;
     cursor: pointer;
@@ -125,9 +126,6 @@ body{
 }
 }
 @media (min-width: 800px) and (max-width: 1199px) {
-    #button{
-        padding: 10px 180px 10px 180px;
-    }
     .main-box{
         height: 560px;
         width: 80%;
